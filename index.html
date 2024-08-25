@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrow Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <div id="message" class="message">Нажмите стрелочку!</div>
+        <div id="game-board" class="game-board"></div>
+        <div id="score-board" class="score-board">
+            Общий счёт: <span id="total-score">0</span>
+        </div>
+        <button id="upgrade-button" class="upgrade-button">
+            Улучшить прибыль (+1 за 100)
+        </button>
+        <div id="mobile-controls" class="mobile-controls">
+            <button class="arrow-button" id="left-button">←</button>
+            <button class="arrow-button" id="up-button">↑</button>
+            <button class="arrow-button" id="right-button">→</button>
+            <button class="arrow-button" id="down-button">↓</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
